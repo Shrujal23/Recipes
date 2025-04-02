@@ -1,0 +1,263 @@
+/* Global Overrides */
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f9f9f9;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: none !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ---- Heading Section ---- */
+.container.title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.heading {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 2%;
+  margin-bottom: 0.5rem;
+}
+.veg-logo img {
+  height: 1.5rem;
+  vertical-align: middle;
+}
+.author-date {
+  font-size: 0.9rem;
+  color: #777;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+.rating {
+  font-size: 1rem;
+  color: #f0ad4e; /* Golden color for stars */
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+.fa {
+  color: gold;
+  font-style: normal;
+}
+
+/* ---- Image Section ---- */
+.container {
+  margin-top: 20px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.recipe-img img {
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ---- Prep Information ---- */
+.prep-info {
+  font-size: 0.9rem;
+  color: #555;
+  height: 60%;
+  width: 40%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.prep-info div {
+  margin-bottom: 0.5rem;
+}
+.prep-icon {
+  color: crimson;
+  margin-bottom: 30px;
+}
+.fa-btn {
+  color: rgb(240, 240, 220);
+}
+.share-btn,
+.bookmark-btn {
+  cursor: pointer;
+  color: #007bff;
+  font-weight: bold;
+  padding: 2px;
+  background-color: rgb(221, 30, 68);
+  border-radius: 10px;
+  width: 60%;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 30px;
+}
+.share-btn:hover,
+.bookmark-btn:hover {
+  color: #0056b3;
+}
+
+/* ---- About Section ---- */
+.about {
+  margin-top: 2rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* ---- Ingredients Section ---- */
+.ingredients {
+  margin-top: 2rem;
+}
+.ingredient-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+  background-color: rgb(100, 237, 100);
+  padding: 10px;
+  text-align: center;
+  color: #d9534f; /* Tomato-ish color */
+}
+.ingredient-list {
+  font-size: 18px;
+  font-weight: bold;
+}
+.ingredient-list-title {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bolder;
+  color: rgb(197, 29, 71);
+}
+.ingredient-list ul.list-group {
+  border: none;
+}
+.list-group-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+/* ---- Steps Section ---- */
+.step-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.step-heading {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  background-color: rgb(237, 100, 146);
+  padding: 10px;
+  text-align: center;
+  color: #333;
+}
+.step {
+  margin-bottom: 1.5rem;
+}
+.step-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #d9534f;
+}
+.step-info {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+  margin-bottom: 20px;
+}
+.step-img img {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* ---- Tips Section ---- */
+.tips {
+  margin-top: 2rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  background-color: rgb(100, 109, 237);
+  padding: 10px;
+  text-align: center;
+  color: #333;
+}
+.tips-block {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+.tips-block ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+.tips-block li {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+/* ---- Comments Section ---- */
+.comments-section {
+  margin-top: 20px;
+}
+.comment {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+.comment h5 {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.comment p {
+  margin-bottom: 5px;
+}
+.comment small {
+  color: #888;
+}
+
+/* Media queries start */
+@media screen and (max-width: 550px) {
+  .recipe-img img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .prep-info {
+    font-size: 15px;
+    color: black;
+    margin: 0px;
+    width: auto;
+  }
+
+  .share-btn,
+  .bookmark-btn {
+    font-size: 16px;
+    background-color: rgb(221, 30, 68);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: auto;
+    width: 200px;
+    color: aliceblue;
+  }
+
+  .step-img img {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}

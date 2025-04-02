@@ -1,0 +1,103 @@
+/* Global styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Wrapper to ensure sticky footer */
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content styling */
+.admin {
+  flex: 1;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.admin:hover {
+  transform: translateY(-3px);
+}
+
+/* Heading styles */
+.admin h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.8rem;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+/* Table styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.table thead tr {
+  background-color: #ff6347;
+  color: #fff;
+}
+.table th,
+.table td {
+  padding: 15px 20px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  transition: background 0.3s;
+}
+.table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+.table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Link & Icon styling */
+.table a {
+  color: #ff6347;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+.table a:hover {
+  color: #e5533d;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .admin {
+    margin: 20px;
+    padding: 15px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px 15px;
+  }
+  
+  .admin h1 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+  }
+}
+
+/* Footer styling */
+/* Sticky footer: this assumes your footer is included within the .wrapper container */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+  margin-top: auto;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.2);
+}
